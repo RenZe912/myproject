@@ -1,3 +1,8 @@
-import numpy as np 
-x = np.empty([3,2], dtype = int) 
-print (x)
+import numpy as np
+
+x = [1,2,3]
+
+a = np.asarray(x)
+
+print(a)
+
